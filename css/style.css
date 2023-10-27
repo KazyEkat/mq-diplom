@@ -270,6 +270,11 @@ select:focus {
     width: 97%;
 }
 
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .category-link {
     color: #b59f5b;
     font-family: "OpenSans";
@@ -284,7 +289,6 @@ select:focus {
 
 .category-item {
     display: inline;
-    line-height: 0;
     margin-right: 13px;
 }
 
